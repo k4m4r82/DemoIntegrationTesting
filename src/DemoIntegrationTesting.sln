@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimPeg.Model", "SimPeg.Model\SimPeg.Model.csproj", "{04E1222A-7B40-46C7-921C-2D44C03D8EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimPeg.Repository.Api", "SimPeg.Repository.Api\SimPeg.Repository.Api.csproj", "{AACB44F5-F2FE-48A8-A5EE-5D577E991608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimPeg.Repository.Service", "SimPeg.Repository.Service\SimPeg.Repository.Service.csproj", "{0C0045F4-ED24-4C44-9DE0-A3C29A9CB22A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52B4582A-6DE3-405E-8757-D9749A1A6279}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimPeg.Repository.Service.UnitTest", "SimPeg.Repository.Service.UnitTest\SimPeg.Repository.Service.UnitTest.csproj", "{9A97C406-D245-4A9C-8260-4C6E42791CE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E1222A-7B40-46C7-921C-2D44C03D8EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E1222A-7B40-46C7-921C-2D44C03D8EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E1222A-7B40-46C7-921C-2D44C03D8EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E1222A-7B40-46C7-921C-2D44C03D8EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACB44F5-F2FE-48A8-A5EE-5D577E991608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACB44F5-F2FE-48A8-A5EE-5D577E991608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACB44F5-F2FE-48A8-A5EE-5D577E991608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACB44F5-F2FE-48A8-A5EE-5D577E991608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0045F4-ED24-4C44-9DE0-A3C29A9CB22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0045F4-ED24-4C44-9DE0-A3C29A9CB22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0045F4-ED24-4C44-9DE0-A3C29A9CB22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0045F4-ED24-4C44-9DE0-A3C29A9CB22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A97C406-D245-4A9C-8260-4C6E42791CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A97C406-D245-4A9C-8260-4C6E42791CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A97C406-D245-4A9C-8260-4C6E42791CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A97C406-D245-4A9C-8260-4C6E42791CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
